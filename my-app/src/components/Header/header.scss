@@ -1,0 +1,75 @@
+#header {
+  background: #fff;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  position: relative;
+
+  a.nav-link,
+  .dropdown-item,
+  .lang {
+    color: #050400;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .login_btn {
+    border: 1px solid #ffc000;
+    border-radius: 5px;
+    height: 40px;
+    padding: 9.5px 24px;
+    font-weight: 600;
+    line-height: 20px;
+    background: #fffbee;
+
+    //   hover
+    &:hover {
+      background: #ffe699;
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+    }
+  }
+
+  .nav-link {
+    margin: 0 0.3rem;
+  }
+
+  .navbar-toggler {
+    border: none;
+    outline: none;
+    box-shadow: none;
+  }
+
+  .bar_icon {
+    width: 25px;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  .res_login_btn {
+    display: none;
+  }
+}
+
+// responsive start
+
+@media (max-width: 991px) {
+  #header {
+    .res_login_btn {
+      display: block;
+      border: 1px solid #ffcd33;
+      border-radius: 5px;
+      height: 40px;
+      padding: 9.5px 24px;
+      font-weight: 600;
+      line-height: 20px;
+      background: #ffcd33;
+      margin-left: 23%;
+    }
+  }
+
+  #header .navbar-nav {
+    margin-top: 0.5rem;
+  }
+}

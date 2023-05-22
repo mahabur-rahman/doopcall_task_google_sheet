@@ -1,0 +1,42 @@
+#trustCompany {
+  overflow: hidden;
+  background: #101828;
+  border-radius: 4px;
+  padding-top: 2.2rem;
+  height: 280px;
+
+  .item {
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+  }
+
+  .item:hover {
+    scale: 1.1;
+  }
+
+  .title {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  // slick slider
+
+  .slick-slide {
+    margin: 0 1rem;
+  }
+
+  .item {
+    object-fit: cover;
+  }
+}
+
+// responsive
+@media (max-width: 600px) {
+  #trustCompany {
+    height: 440px !important;
+  }
+}

@@ -1,0 +1,113 @@
+#guide {
+  overflow: hidden;
+  background: #101828;
+  padding: 2.2rem 0;
+  position: relative;
+  .title_part {
+    display: flex;
+  }
+
+  .carier_title {
+    color: #fff;
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 26px;
+  }
+
+  .main_title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+  }
+
+  .card {
+    background: #1d2939;
+  }
+
+  .icon {
+    color: #fff;
+  }
+
+  .sub_title_des {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .sub_label {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  .card {
+    margin: 0 1rem;
+  }
+  // slide slider
+
+  .slick-next:before,
+  .slick-prev:before {
+    color: #fffbee;
+    font-size: 30px;
+  }
+
+  .slick-prev {
+    left: -34px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 8px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #ffab00;
+    font-size: 12px;
+  }
+  .slick-slider .slick-list,
+  .slick-slider .slick-track {
+    margin-bottom: 1.5rem;
+  }
+
+  .slick-dots li button:before {
+    opacity: 0.8;
+
+    color: #fff;
+  }
+
+  .slick-dots {
+    display: none !important;
+  }
+
+  .prevBtn,
+  .nextBtn {
+    // display: none;
+    background: #fffbee;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .prevIcon,
+  .nextIcon {
+    color: #ffab00;
+  }
+}
+
+// responsive start
+
+@media (max-width: 575px) {
+  #guide .slick-next:before,
+  #guide .slick-prev:before {
+    display: none;
+  }
+
+  #guide .slick-dots {
+    bottom: -54px;
+    text-align: left;
+    width: 180px;
+    display: block !important;
+  }
+}

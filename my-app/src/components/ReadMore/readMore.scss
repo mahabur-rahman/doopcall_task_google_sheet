@@ -1,0 +1,121 @@
+#readMore {
+  overflow: hidden;
+  padding: 2.5rem 0;
+  background-color: #fff;
+
+  .card {
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+  }
+
+  .card:hover {
+    border: 1px solid #475467;
+  }
+
+  .pencil {
+    object-fit: cover;
+    margin-top: 0.1rem;
+  }
+
+  .label {
+    color: #475467;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 1rem;
+  }
+
+  .main_title {
+    color: #1d2939;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -0.5rem;
+  }
+
+  .subTitle {
+    color: #475467;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+  }
+
+  .course_title {
+    color: #101828;
+    font-weight: 700;
+    font-size: 22px;
+  }
+
+  // slick slider
+
+  .slick-next:before,
+  .slick-prev:before {
+    color: #ffab00;
+    font-size: 30px;
+    display: none;
+  }
+
+  .slick-prev {
+    left: -34px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 8px;
+  }
+
+  .slick-dots li.slick-active button:before {
+    color: #ffab00;
+    font-size: 12px;
+  }
+  .slick-slider .slick-list,
+  .slick-slider .slick-track {
+    margin-bottom: 0.5rem;
+  }
+
+  .slick-dots li button {
+    display: none;
+  }
+
+  .prevBtn,
+  .nextBtn {
+    border: 1px solid #ffab00;
+    background: #fffbee;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  }
+
+  .prevIcon,
+  .nextIcon {
+    color: #ffab00;
+  }
+}
+
+// responsive start
+
+@media (max-width: 575px) {
+  #readMore .slick-next:before,
+  #readMore .slick-prev:before {
+    display: none;
+  }
+
+  #readMore .slick-dots {
+    bottom: -54px;
+    text-align: left;
+    width: 180px;
+    display: block !important;
+  }
+
+  #readMore {
+    .slick-dots li button {
+      display: block;
+    }
+  }
+}

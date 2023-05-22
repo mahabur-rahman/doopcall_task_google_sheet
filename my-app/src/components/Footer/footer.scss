@@ -1,0 +1,62 @@
+#footer {
+  overflow: hidden;
+  background: #fffbee;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+
+  .play_store {
+    cursor: pointer;
+  }
+
+  .footer_text {
+    color: #1d2939;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+
+    // hover
+    &:hover {
+      color: #355681;
+    }
+  }
+
+  a {
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+
+  .links:hover {
+    scale: 1.1;
+  }
+
+  // res add
+  .res_text {
+    color: #1d2939;
+    letter-spacing: 0.02em;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 1rem;
+  }
+  .download_text {
+    color: #1d2939;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .quick_title {
+    color: #1d2939;
+    font-weight: 600;
+    font-size: 18px;
+  }
+}
+
+// responsive start
